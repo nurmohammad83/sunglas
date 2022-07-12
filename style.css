@@ -25,8 +25,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     background-color: azure;
-    padding: 10px;
-    margin: 20px;
+    margin: 15px;
     border-radius: 50px;
 }
 
@@ -72,7 +71,7 @@ nav ul li a:hover {
     text-align: center;
     padding: 70px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bold; 
 
 }
 
@@ -88,4 +87,36 @@ nav ul li a:hover {
 .shoping>a:hover {
     background-color: rgb(36, 166, 247);
     transition: .8s ease-in-out;
+}
+/* Section About */
+.about{
+    margin: 50px;
+}
+.img-size{
+    width: 120%;
+}
+.half{
+    width: 40%;
+    padding: 100px;
+}
+.about-details{
+    width: 50%;
+    height: 100%;
+    margin: 22px 3px 100px 2px;
+    padding: 60px;
+    border: 1px solid black;
+    border-right: 8px solid black;
+   
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+.title{
+    font-size: 22px;
+}
+.description{
+    font-size: 16px;
 }
