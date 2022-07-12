@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Section header */
+header {
+    background-color: lightgray;
+}
+
+.header-logo {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin: 0 200px 0 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(36, 166, 247);
+}
+
+.top-in {
+    background-color: lightskyblue;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.baner-title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.top-title {
+    font-size: 3rem;
+    margin: 60px 0 20px 0;
+    color: rgb(36, 166, 247);
+}
+
+.baner-title>img {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.shoping {
+    text-align: center;
+    padding: 70px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.shoping>a {
+    text-decoration: none;
+    padding: 10px 19px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.shoping>a:hover {
+    background-color: rgb(36, 166, 247);
+    transition: .8s ease-in-out;
+}
